@@ -1,0 +1,25 @@
+h1
+{
+    font-family: Tahoma;
+    color:red;
+}
+
+div{
+    width: 50%;
+}
+
+table{
+    border: 1px solid black;
+}
+
+td,th
+{
+    border: 1px solid black;
+}
+
+a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: cornflowerblue;
+}
