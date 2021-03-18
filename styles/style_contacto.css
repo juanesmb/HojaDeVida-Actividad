@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #00112c;
+    text-align: center;
+    font-family: Haettenschweiler;
+    font-size: 20px;
+    font-family: 'Cormorant Unicase', serif;
+}
+
+section{
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-top: solid black;
+    border-right: solid black;
+    border-left: solid black;
+    border-bottom: solid black;
+}
+
+h1
+{
+    font-size: 50px;
+    color: #00a98f;
+}
+
+textarea{
+    width: 500px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}

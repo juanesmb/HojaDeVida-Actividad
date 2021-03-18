@@ -5,76 +5,94 @@
     <meta charset='utf-8'>
     <title>hoja de vida</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel="stylesheet" href="style_index.css">
+    <link rel="stylesheet" href="styles/style_index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap">
 </head>
 
 <body>
-    <img src="https://saskatoonfood.ca/images/headers/1000x200-StoonDusk.jpg" alt="Imagen 1000X200">
-    <h1> JUAN ESTEBAN MONCADA BONILLA </h1>
-    <h2>Fecha de nacimiento: 27/10/1999</h2>
-    <div>
-        <p>
-            De pequeño siempre estuve motivado a estudiar algo de programación debido a mi gusto por los videojuegos. Durante mi educación en el colegio no tenía claro 
-            qué estudiar y me iba regular en las materias. Pasó el tiempo y llegué a décimo grado donde decidí comprometerme con el estudio y adquirir conocimientos valiosos 
-            que me ayudaran a determinar qué me gusta. No fue hasta 11 que logré tener mi primer acercamiento con la programación pero me iba bastante regular. 
-            No entendía los condicionales y tampoco los bucles. Estaba decidido a estudiar otra cosa. Finalmente me gradué en el año 2017 y al comenzar 2018, estuve buscando 
-            inscripciones a una universidad que me enseñara administración de negocios. Pero el día de la inscripción, tenía bastante curiosidad de conocer más a cerca de 
-            ing de sistemas y de lo que hacían. así que me inscribi en el preuniversitario de la UFPS y terminé inquieto por conocer más acerca de este mundo. 
-        </p>
+    <header>
+        <div class="contenedor">
+            <img src="content/descarga.jpg" alt="Imagen 1000X200" class="imagen">
+        </div>
+        
+        <h1> JUAN ESTEBAN MONCADA BONILLA </h1>
+        <h2>Fecha de nacimiento: <br> 27/10/1999</h2>
+    </header>
 
-        <p>
-            Actualmente me encuentro estudiando ingeniería de sistemas en la Universidad Francisco de Paula Santander y
-            tengo una formación total de 6 semestres desde el año 2018. 
-            Hasta el momento pienso que la carrera ha estado llena de muchos aprendizajes y fallas en el camino. Pero Pienso que
-            aún me hace falta adquirir muchos conocimientos 
-            porque existen gran cantidad de tecnologías, lenguajes, arquitecturas, metodologías y otras habilidades que son
-            necesarias para poder desempeñarme como un verdadero profesional. 
-            Sin embargo, mi interés por todo este mundo sigue en alza. Todavía me sorprende los logros que como sociedad
-            hemos conseguido y carreras como ing de sistemas aportan los conocimientos
-            necesarios si se quiere llegar a grandes lugares. incluso al espacio... En 5 años me proyecto como un gran
-            emprendedor y colaborador dentro de importantes equipos de trabajo
-            en la industria de software o tecnologías en el exterior.
-        </p>
-    </div>
+    <section>
 
-    <h3>Mis Hobbies</h3>
+        
+        <div id="parrafos">
+            <p id="primerp">
+                De pequeño siempre estuve motivado a estudiar algo de programación debido a mi gusto por los videojuegos. Durante mi educación en el colegio no tenía claro 
+                qué estudiar y me iba regular en las materias. Pasó el tiempo y llegué a décimo grado donde decidí comprometerme con el estudio y adquirir conocimientos valiosos 
+                que me ayudaran a determinar qué me gusta. No fue hasta 11 que logré tener mi primer acercamiento con la programación pero me iba bastante regular. 
+                No entendía los condicionales y tampoco los bucles. Estaba decidido a estudiar otra cosa. Finalmente me gradué en el año 2017 y al comenzar 2018, estuve buscando 
+                inscripciones a una universidad que me enseñara administración de negocios. Pero el día de la inscripción, tenía bastante curiosidad de conocer más a cerca de 
+                ing de sistemas y de lo que hacían. así que me inscribi en el preuniversitario de la UFPS y terminé inquieto por conocer más acerca de este mundo. 
+            </p>
 
-    <ul>
-        <li>Estudiar, aprender cosas nuevas</li>
-        <li>Jugar videojuegos</li>
-        <li>Salir de aventura</li>
-        <li>Escuchar música</li>
-    </ul>
+            <p id="segundop">
+                Actualmente me encuentro estudiando ingeniería de sistemas en la Universidad Francisco de Paula Santander y
+                tengo una formación total de 6 semestres desde el año 2018. 
+                Hasta el momento pienso que la carrera ha estado llena de muchos aprendizajes y fallas en el camino. Pero Pienso que
+                aún me hace falta adquirir muchos conocimientos 
+                porque existen gran cantidad de tecnologías, lenguajes, arquitecturas, metodologías y otras habilidades que son
+                necesarias para poder desempeñarme como un verdadero profesional. 
+                Sin embargo, mi interés por todo este mundo sigue en alza. Todavía me sorprende los logros que como sociedad
+                hemos conseguido y carreras como ing de sistemas aportan los conocimientos
+                necesarios si se quiere llegar a grandes lugares. incluso al espacio... En 5 años me proyecto como un gran
+                emprendedor y colaborador dentro de importantes equipos de trabajo
+                en la industria de software o tecnologías en el exterior.
+            </p>
+        </div>
 
-    <h3>Mis peliculas y series favoritas</h3>
+        <article id="hobbies">
+            <h3>Mis Hobbies</h3>
+            <ul>
+                <li>Estudiar, aprender cosas nuevas</li>
+                <li>Jugar videojuegos</li>
+                <li>Salir de aventura</li>
+                <li>Escuchar música</li>
+            </ul>
+        </article>
 
-    <ol>
-        <li>Saga God of war</li>
-        <li>League of legends</li>
-        <li>Saga Bioshock</li>
-        <li>Call of duty</li>
-    </ol>
+        <article id="series"> 
+            <h3>Mis películas y series favoritas</h3>
 
-    <h3>Mi canción favorita</h3>
+            <ul>
+                <li>Saga God of war</li>
+                <li>League of legends</li>
+                <li>Saga Bioshock</li>
+                <li>Call of duty</li>
+            </ul>
+        </article>
 
-    <audio src="like-it-is-mixed.mp3" controls="true"></audio>
+        <div id="audio">
+            <h3>Mi canción favorita</h3>
+            <audio src="content/like-it-is-mixed.mp3" controls="true"></audio>
+        </div>
 
-    <h3>Mis materias favoritas</h3>
+        <h3>Mis materias favoritas</h3>
 
-    <table>
-        <tr> <th>Materia</th> <th>Nota</th> <th>Motivo</th> </tr>
-        <tr> <td>Cálculo integral</td> <td>4.6</td> <td>En esta materia se plantean ejercicios bastante interesantes de resolver. Además tuve la oportunidad de aprender con un buen profesor</td> </tr>
-        <tr> <td>Física mecánica</td> <td>4.4</td> <td>En el colegio era una materia que no me gustaba. Pero poco a poco le he agarrado el gusto porque me gusta entender los fenómenos del universo</td> </tr>
-        <tr> <td>Ondas y particulas</td> <td>3.7</td> <td>Esta materia me ayudó a comprender cómo funcionan muchos fenómenos que a veces ni nos damos cuenta y que hemos sabido utilizar a nuestro favor</td> </tr>
-        <tr> <td>Programación orientada a objetos</td> <td>3.8</td> <td>Conocer el paradigma de programación orientado a objetos me cambió la forma de ver el mundo. Y eso generó un gusto grande por la programación. </td> </tr>
-        <tr> <td>Física electromagnética</td> <td>3.8</td> <td>A pesar de que tuve dificultades en el aprendizaje de esta materia, sus temáticas estan llenas de gran conocimiento</td> </tr>
-    </table>
+        <table>
+            <tr> <th>Materia</th> <th>Nota</th> <th>Motivo</th> </tr>
+            <tr> <td>Cálculo integral</td> <td>4.6</td> <td>En esta materia se plantean ejercicios bastante interesantes de resolver. Además tuve la oportunidad de aprender con un buen profesor.</td> </tr>
+            <tr> <td>Física mecánica</td> <td>4.4</td> <td>En el colegio era una materia que no me gustaba. Pero poco a poco le he agarrado el gusto porque me gusta entender los fenómenos del universo.</td> </tr>
+            <tr> <td>Ondas y particulas</td> <td>3.7</td> <td>Esta materia me ayudó a comprender cómo funcionan muchos fenómenos que a veces ni nos damos cuenta y que hemos sabido utilizar a nuestro favor.</td> </tr>
+            <tr> <td>Programación orientada a objetos</td> <td>3.8</td> <td>Conocer el paradigma de programación orientado a objetos me cambió la forma de ver el mundo. Y eso generó un gusto grande por la programación. </td> </tr>
+            <tr> <td>Física electromagnética</td> <td>3.8</td> <td>A pesar de que tuve dificultades en el aprendizaje de esta materia, sus temáticas estan llenas de gran conocimiento.</td> </tr>
+        </table>
 
-    <br>
+    </section>
 
-    <a href="contacto.html">Contacto</a>
-
-
+    <footer>
+        <button>
+            <a href="contacto.html">Contacto</a>
+        </button>
+        
+    </footer>
 </body>
 
 </html>

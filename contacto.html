@@ -4,39 +4,43 @@
     <meta charset='utf-8'>
     <title>Práctica de formularios</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/style_contacto.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase&display=swap">
 </head>
 <body>
 
-    <h1>Formularios</h1>
+    <section>
+        <h1>Formulario</h1>
+        <form action="https://formspree.io/f/xgepgqwg" method="POST">
 
-    <form action="mailto:juanestebanmb@ufps.edu.co" method="POST">
+            <label for="usuario">Ingrese su nombre</label>
+            <br>
+            <input type="text" placeholder="Digite su nombre" maxlength="50" name="usuario" id="usuario">
+            <br>
+            <br>
 
-        <label for="usuario">Ingrese su nombre:</label>
-        <input type="text" placeholder="Digite su nombre" maxlength="50" name="usuario" id="usuario">
-        <br>
-        <br>
+            <label for="asunto">Asunto</label>
+            <br>
+            <input type="text" placeholder="Asunto" maxlength="50" name="asunto" id="asunto">
+            <br>
+            <br>
 
-        <label for="asunto">Asunto:</label>
-        <input type="text" placeholder="Asunto" maxlength="50" name="asunto" id="asunto">
-        <br>
-        <br>
+            <label for="email">Ingrese su email</label>
+            <br>
+            <input type="email" placeholder="email" maxlength="50" name="email" id="email">
+            <br>
+            <br>
 
-        <label for="email">Ingrese su email</label>
-        <input type="email" placeholder="email" maxlength="50" name="email" id="email">
-        <br>
-        <br>
+            <label for="mensaje">Ingrese su mensaje</label>
+            <br>
+            <textarea name="mensaje" id="mensaje"></textarea>
 
-        <label for="mensaje">Ingrese su mensaje:</label>
-        <br>
-        <br>
-        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+            <br>
+            <button name="submit" type="submit">Enviar</button>
+        </form>
+    </section>
 
-        <br>
-        <button name="submit" type="submit">Enviar</button>
-
-        
-
-    </form>
+    
 </body>
 </html>
